@@ -1,0 +1,29 @@
+{
+  "name": "ngrx-sentry",
+  "version": "0.0.1",
+  "description": "Meta-reducer that logs ngrx actions and state as breadcrumbs and sends them to Sentry on exception",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "author": "Märt Vaha",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "ngrx",
+    "sentry"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "raven-js": "^3.16.0"
+  },
+  "devDependencies": {
+    "@angular/core": "^4.0.0",
+    "@ngrx/core": "^1.1.0",
+    "@ngrx/store": "^2.2.2",
+    "raven-js": "^3.16.0",
+    "rxjs": "^5.0.0-beta.12",
+    "typescript": "^2.3.4",
+    "zone.js": "^0.8.4"
+  }
+}
